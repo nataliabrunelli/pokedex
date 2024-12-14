@@ -206,6 +206,10 @@ body {
   justify-content: space-between;
 }
 
+#detalhe div h2 {
+  text-transform: capitalize;
+}
+
 #detalhe div span, #detalhe .descricao li {
   color: #fff;
 }
