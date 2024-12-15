@@ -260,8 +260,13 @@ body {
   margin-top: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem 0;
 }
 
 .abilities li {
   text-transform: capitalize;
+}
+
+.abilities h4 {
+  grid-row: span 2;
 }
